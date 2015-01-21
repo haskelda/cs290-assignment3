@@ -1,1 +1,15 @@
 You log goes in this  file.
+
+Start: Wed, 21 Jan 2015 12:16:12 -0800 "Initial commit"
+
+Tasks: 
+
+Create cs-290assignment3 repo and copy (did not clone) the files into my repo. This took about 20 minutes, before the recorded “Start” time above.  Cloning made a mess of things and dragged in all the history I didn’t want and wouldn’t let me push changes.  So I downloaded the zip file of your repo and copied the files into my own repo.  
+	
+Began working on the simpler code.  Ran the qunit.html test.  Found strange error about asStringFoo.  Spend 20 minutes reading discussions about it.  Hmmm… something about pulling changes … maybe I do need to clone the repo after all…
+
+Tried cloning again, through “Clone to Desktop” on web GitHub, through GitHub app, and through command line.  Every time, I am denied permission to sync or push changes.  Of course.  Did you mean FORK your repos and clone THAT to my desktop?!
+
+Anyway, back to my first idea of just copying the files downloaded through the zip.
+
+Back to code.  
