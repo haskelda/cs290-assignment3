@@ -41,7 +41,7 @@ bar = function (doubleArray) {
     }
   }
   return true;
-}
+};
 //end your code
 
 /**

@@ -12,4 +12,37 @@ Tried cloning again, through “Clone to Desktop” on web GitHub, through GitHu
 
 Anyway, back to my first idea of just copying the files downloaded through the zip.
 
-Back to code.  
+Back to code. Finished variables.js, and some in functions.js.  Testing seemed ok.  Pushed to my repo on GitHub.   
+
+OK So I’m taking a break now.  It’s 3:10 pm.  The results of running git log are:
+
+BadAssMacMini-3:cs290-assignment3 fizziksgeek$ git log --pretty=format:"%h %ad \"%s\"" --date=rfc
+f0eaf3b Wed, 21 Jan 2015 13:40:52 -0800 "changes to variables.js"
+716af22 Tue, 20 Jan 2015 21:49:04 -0800 "Minor updates"
+374f4fe Tue, 20 Jan 2015 21:43:05 -0800 "Fix product to sum and tests"
+ce5015b Mon, 19 Jan 2015 15:36:57 -0800 "Update variable test"
+4ca8c5b Mon, 19 Jan 2015 15:32:20 -0800 "Fix lint issues"
+f8d2e20 Sun, 18 Jan 2015 19:15:34 -0800 "Update collaborator info."
+a0478b6 Sun, 18 Jan 2015 19:05:33 -0800 "Initial Commit"
+13a4184 Sun, 18 Jan 2015 19:04:37 -0800 "Update log format"
+b82613f Sun, 18 Jan 2015 19:03:26 -0800 "Update description"
+d534ca9 Sun, 18 Jan 2015 18:45:32 -0800 "Update tests."
+359ad64 Sun, 18 Jan 2015 18:17:19 -0800 "Updated tests"
+d17866d Thu, 23 Oct 2014 01:46:06 -0700 "Running qunit tests via CLI"
+1ad867e Thu, 23 Oct 2014 01:14:52 -0700 "add instructions"
+f7bb9a0 Thu, 23 Oct 2014 01:02:15 -0700 "run: `npm install; grun test;`"
+5f07c11 Tue, 14 Oct 2014 01:29:37 -0700 "Removed incomplete comment, add A comme
+2555810 Tue, 14 Oct 2014 01:26:50 -0700 "Merge branch 'master' of https://github
+5fb056d Tue, 14 Oct 2014 01:26:24 -0700 "Add objects and functions"
+314e66c Mon, 13 Oct 2014 00:46:43 -0700 "Fix readme spelling"
+72ac0bf Mon, 13 Oct 2014 00:45:53 -0700 "Add clarification"
+a2f53e0 Mon, 13 Oct 2014 00:35:44 -0700 "Change student code comments"
+9242804 Mon, 13 Oct 2014 00:35:01 -0700 "Add README.md"
+977cd5f Mon, 13 Oct 2014 00:17:13 -0700 "Initial commit"
+
+I don’t really know what this means….I’ve got the wrong idea about what you are asking us to do for End time…
+
+Posted above question on Canvas 2015-01-22  9:55 PST
+Question answered
+
+

@@ -40,6 +40,8 @@ function returnObjectLiteral() {
 * totalSent() - returns an integer indicating the total number of messages sent
 * totalReceived() - returns an integer indicating the total number of messages
 * received
+
+
 */
 
 //your code here
@@ -50,6 +52,16 @@ function returnObjectLiteral() {
 * Add a method to the MessageLog prototype:
 * lastReceivedMessage() - returns the message text of the last message the user
 * received.
+*
+*
+* OR for Extra Credit:
+*
+* Add a method to the MessageLog prototype called systemReceived().
+* This method should return the total number of messages received for all
+* instances of message logs. So if you have logs A and B, A has received
+* 3 messages, B has received 8. systemReceived() should return 11. You
+* may need to do more than simply add a method to make this functionality
+* work.
 */
 //your code here
 
@@ -64,3 +76,5 @@ function returnObjectLiteral() {
 //your code here
 
 //end your code
+
+
