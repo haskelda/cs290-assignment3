@@ -1,8 +1,13 @@
-You log goes in this  file.
+David Haskell
+haskelda
+932430887
+cs290 Assignment 3
 
-Start: Wed, 21 Jan 2015 12:16:12 -0800 "Initial commit"
+Start: Wed, 21 Jan 2015 12:16:12 -0800  
+End: Wed, 21 Jan 2015 13:57:56 -0800 
+Tasks: Initial commit of all copied files
 
-Tasks: 
+Task details:
 
 Create cs-290assignment3 repo and copy (did not clone) the files into my repo. This took about 20 minutes, before the recorded “Start” time above.  Cloning made a mess of things and dragged in all the history I didn’t want and wouldn’t let me push changes.  So I downloaded the zip file of your repo and copied the files into my own repo.  
 	
@@ -12,7 +17,16 @@ Tried cloning again, through “Clone to Desktop” on web GitHub, through GitHu
 
 Anyway, back to my first idea of just copying the files downloaded through the zip.
 
-Back to code. Finished variables.js, and some in functions.js.  Testing seemed ok.  Pushed to my repo on GitHub.   
+
+
+Start: Wed, 21 Jan 2015 13:57:56 -0800 
+End: Wed, 21 Jan 2015 15:07:26 -0800 
+Tasks: Work session 1: Finished variables.js, and some in functions.js.
+
+
+Task details: 
+
+Testing seemed ok.  Pushed to my repo on GitHub.   
 
 OK So I’m taking a break now.  It’s 3:10 pm.  The results of running git log are:
 
@@ -43,6 +57,23 @@ a2f53e0 Mon, 13 Oct 2014 00:35:44 -0700 "Change student code comments"
 I don’t really know what this means….I’ve got the wrong idea about what you are asking us to do for End time…
 
 Posted above question on Canvas 2015-01-22  9:55 PST
-Question answered
+Question answered (Thank you)
 
 
+Start: Mon, 26 Jan 2015 14:20:00 -0800 
+End: Mon, 26 Jan 2015 14:30:38 -0800 
+Tasks: Updated README and tests
+
+Task details:  because I copied the files directly into my local repo, all updates are manual.  I’ll have to figure this out better.  See comments about Forking vs Cloning above.  
+
+
+
+Start: Tue, 27 Jan 2015 09:30:00 -0800 
+End: Tue, 27 Jan 2015 11:52:00 -0800 
+Tasks: Work session 2: Completed functions.js
+
+Task details: This took a while.  I found the method that worked best for me, in terms of debugging was to “cheat” and reverse engineer the code.  In other words, I placed exactly, literally, what was wanted by the testing in the return statement, then, piece by piece, replaced it with working code, testing for every step.  
+
+I also used this site for getting the parsing right:
+
+http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_constructor_string
