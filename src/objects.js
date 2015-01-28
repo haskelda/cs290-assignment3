@@ -45,29 +45,55 @@ function returnObjectLiteral() {
 */
 
 //your code here
+var totalSystemMessagesReceived = 0; //for Extra Credit
+
 function MessageLog(user){
   this.user = user;
-  this.messageArray = [];
-  this.totalReceived = 0;
-  this.totalSent = 0;
+  this.receivedMessageArray = [];
+  this.totalMessagesReceived = 0;
+  this.sentMessageArray = [];
+  this.totalMessagesSent = 0;
+  MAX_ARRAY_SIZE = 5;
   this.logMessage = function(messageText, direction) {
-    if (direction == 1){ //received
-      this.totalReceived++;
+    if (direction == 1){ //user received message
+      /*This while loop rewrites every element in the array so that
+       the most recent element is always element 0. 
+       This is to make the implementation of lastReceivedMessage easier */
+      var i = this.receivedMessageArray.length;
+      if (i = MAX_ARRAY_SIZE)  // Limits size of array array
+        i = MAX_ARRAY_SIZE - 1;
+      while (i > 0) {
+        this.receivedMessageArray[i] = this.receivedMessageArray[i - 1];
+        i--;
+      }
+      this.receivedMessageArray[0] = messageText;
+      this.totalMessagesReceived++;
+      totalSystemMessagesReceived++;
     }
-    if (direction == 0) { //sent
-      this.messageArray[this.totalSent] = messageText;
-      this.totalSent++;
+    if (direction == 0) { //user sent message
+      /*This while loop rewrites every element in the array so that
+       the most recent element is always element 0. 
+       This is to make the implementation of getSentMessage easier */
+      var i = this.sentMessageArray.length;
+      if (i = MAX_ARRAY_SIZE)  // Limits size of array
+        i = MAX_ARRAY_SIZE - 1;
+      while (i > 0) {
+        this.sentMessageArray[i] = this.sentMessageArray[i - 1];
+        i--;
+      }
+      this.sentMessageArray[0] = messageText;
+      this.totalMessagesSent++;
     }
   };
   this.getSentMessage = function(n) {
-    if (this.totalSent != 0)
-      return (this.messageArray[(this.totalSent - (n + 1))]);
+    if (this.totalMessagesSent > n)
+      return this.sentMessageArray[n];
   };
   this.totalSent = function() {
-    return this.totalSent;
+    return this.totalMessagesSent;
   };
   this.totalReceived = function() {
-    return this.totalReceived;
+    return this.totalMessagesReceived;
   };
 }
 //end your code
@@ -76,7 +102,13 @@ function MessageLog(user){
 * Add a method to the MessageLog prototype:
 * lastReceivedMessage() - returns the message text of the last message the user
 * received.
-*
+*/
+//your code here
+MessageLog.prototype.lastReceivedMessage = function() {
+  return (this.receivedMessageArray[0]);
+};
+//end your code
+/*
 *
 * OR for Extra Credit:
 *
@@ -88,9 +120,9 @@ function MessageLog(user){
 * work.
 */
 //your code here
-/*
+
 MessageLog.prototype.systemReceived = function() {
-  return (this.totalSent + this.totalReceived);
+  return (totalSystemMessagesReceived);
 };
 
 //end your code
@@ -99,13 +131,13 @@ MessageLog.prototype.systemReceived = function() {
 * Create an instance of a `MessageLog` for the user "BlackHatGuy". Have the
 * instance receive 3 messages: "foo", "bar" and "baz", received in that order.
 * Assign it to the variable myLog.
-*
+*/
 
 //your code here
-var myLog = new MessageLog(BlackHatGuy);
+var myLog = new MessageLog('BlackHatGuy');
 myLog.logMessage('foo', 1);
 myLog.logMessage('bar', 1);
 myLog.logMessage('baz', 1);
 //end your code
 
-*/
+
