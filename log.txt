@@ -77,3 +77,16 @@ Task details: This took a while.  I found the method that worked best for me, in
 I also used this site for getting the parsing right:
 
 http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_constructor_string
+
+
+
+Start: Tue, 27 Jan 2015 12:30:00 -0800
+End: Tue, 27 Jan 2015 14:02:40 -0800 
+Tasks: Work Session 3: objects.js mostly complete
+
+
+Start: Tue, 27 Jan 2015 21:45:00 -0800
+End: Tue, 27 Jan 2015 23:41:25 -0800 
+Tasks: Completed objects.js - Work Session 4
+
+Task Details: Completed Extra Credit (I think) as well as regular assignment.  Did not test Extra Credit.
